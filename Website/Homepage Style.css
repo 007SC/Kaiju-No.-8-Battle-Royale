@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('bg1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    }
+
+header ul {
+    position: relative;
+    display: flex;
+    }
+
+header ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a {
+color: #ffffff;
+font-weight: 600;
+margin-left: 50px;
+text-decoration: none;
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+}
+
+header ul li a:hover {
+    color: aqua;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-5px);
+    display: flex;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    clip-path: circle(600px at right 800px);
+    backdrop-filter: blur(25px);
+}
+
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    clip-path: circle(650px at right 800px);
+    backdrop-filter: blur(20px);
+}
+
+.circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    clip-path: circle(700px at right 800px);
+    backdrop-filter: blur(15px);
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .content .textBox {
+    position: relative;
+    width: 900px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    margin: 10px;
+}
+
+.content .textBox p
+{
+    color: #ffffff;
+}
+
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgBox img
+
+{
+max-width: 200px;
+}
+
+.content .textBox span {
+    color: aqua;
+    font-size: 1em;
+    font-weight: 700;
+}
